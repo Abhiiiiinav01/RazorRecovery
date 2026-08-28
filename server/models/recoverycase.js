@@ -43,7 +43,8 @@ const recoveryCaseSchema = new mongoose.Schema(
         "RECOVERING",
         "RECOVERED",
         "ESCALATED",
-        "STOPPED"
+        "STOPPED",
+        "EMAIL_SENT"
       ],
       default: "PENDING_AI"
     },
